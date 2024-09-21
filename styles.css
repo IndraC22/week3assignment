@@ -1,0 +1,41 @@
+h1, h2, h3 {
+  font-family: "Playwrite BE WAL", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  }  
+
+
+
+
+.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 75%;
+}
+
+body {
+    background-color: lightcoral;
+  }
+
+table{
+    background-color: antiquewhite;
+}
+
+.form {
+  background-color: rgb(234, 182, 182);
+  padding: 5px;
+  border-style: dotted;
+}
+
+.container{
+  border-style: dashed;
+  border-color: rgb(68, 12, 12);
+  border-width: 5px;
+}
+
+h5{
+  font-size: xx-large;
+}
+ 

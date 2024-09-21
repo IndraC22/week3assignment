@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"> <h3>Cocina Delicia</h3></a>
+            
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+          
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Recommendations.html">Recommendations</a>
+            </li>
+                
+            </ul>
+    
+            <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+    
+        </div>
+    
+        </nav>
+
+        <h5 style="text-align: center;"> 
+          Whether you don't know where to start, here are some suggestions that our 
+          customers have said are their top favorites.
+        </h5>
+
+
+        <!--Cards-->
+        <div class="container">
+            <div class="row row-cols-1 row-cols-lg-3 g-5 m-3 pt-5">
+
+              <div class="col-sm">
+               
+                <div class="card h-100">
+                    <img src="https://static01.nyt.com/images/2023/09/29/multimedia/HE-pupusa-zphv/HE-pupusa-zphv-superJumbo.jpg" class="card-img-top" alt="Pupusa">
+                    <div class="card-body">
+                      <h5 class="card-title">Pupusa</h5>
+                      <p class="card-text fs-5">A stuffed tortilla with savory ingredients such as meat, cheese, beans and vegetables.</p>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-sm">
+               
+                <div class="card h-100">
+                    <img src="https://twosleevers.com/wp-content/uploads/2017/04/Horchata-Tall.jpg" class="card-img-top" alt="Horchata">
+                    <div class="card-body">
+                      <h5 class="card-title">Horchata de Morro</h5>
+                      <p class="card-text fs-5">A drink that is non dairy made with morro seeds, cinnamon stick, rice, cocoa beans, and more secret ingredients.</p>
+                     </div>
+                  </div>
+              </div>
+
+              <div class="col-sm">
+                <div class="card h-100">
+                    <img src="https://buenprovecho.hn/wp-content/uploads/2023/09/Untitled-design-15.jpg" class="card-img-top" alt="Empanada De Leche">
+                    <div class="card-body">
+                      <h5 class="card-title">Empanada de Leche</h5>
+                      <p class="card-text fs-5">A plantain fried with sweetened condensed milk inside topped with sugar and cinnamon.</p>
+                      </div>
+                  </div> 
+
+              </div>
+            </div>
+          </div>
+        <!--TABLE-->
+       
+       
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Entree</th>
+                <th scope="col">Drinks</th>
+                <th scope="col">Pastries</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Pupusas</td>
+                <td>Horchata de Morro</td>
+                <td>Empanada De Leche</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Tamales De Pollo</td>
+                <td>Kolashampan</td>
+                <td>Quesadilla</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Pastelitos De Pollo</td>
+                <td>Agua Granadilla</td>
+                <td>Chocobananos</td>
+              </tr>
+            </tbody>
+          </table> 
+        
+        <h1 class="text-center mt-5 pt-5"> Sign Up For Rewards</h1>
+
+
+
+          <form class="form mb-5 ms-3 me-3">
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">Name</label>
+                <input type="email" class="form-control" id="inputEmail4">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputPassword4">Email</label>
+                <input type="password" class="form-control" id="inputPassword4">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputAddress">Address</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="form-group">
+              <label for="inputAddress2">Address 2</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputCity">City</label>
+                <input type="text" class="form-control" id="inputCity">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputState">State</label>
+                <select id="inputState" class="form-control">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+                </select>
+              </div>
+              <div class="form-group col-md-2">
+                <label for="inputZip">Zip</label>
+                <input type="text" class="form-control" id="inputZip">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Sign me up for Cocina Delicia's Mailing List
+                </label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"> </script>
+
+</body>
+</html>
